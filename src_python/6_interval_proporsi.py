@@ -1,9 +1,9 @@
 # Program Interval Kepercayaan Proporsi Populasi
 
 # Input data
-p_hat = float(input("Masukkan proporsi sampel (p̂): "))
-n = int(input("Masukkan ukuran sampel (n): "))
-alpha = float(input("Masukkan nilai alpha (0.10 atau 0.05): "))
+p_hat = "masukkan nilai"
+n = "masukkan nilai n"
+alpha = "masukkan nilai alpha (0.10 atau 0.05)"
 
 # Validasi proporsi
 if p_hat < 0 or p_hat > 1:
