@@ -1,9 +1,9 @@
 # Program Interval Kepercayaan Proporsi Populasi
 
 # Input data
-p_hat <- as.numeric(readline("Masukkan proporsi sampel (p_hat): "))
-n <- as.numeric(readline("Masukkan ukuran sampel (n): "))
-alpha <- as.numeric(readline("Masukkan nilai alpha (0.10 atau 0.05): "))
+p_hat <-"Masukkan proporsi sampel (p_hat)"
+n <-"Masukkan ukuran sampel (n)"
+alpha <- "Masukkan nilai alpha (0.10 atau 0.05)"
 
 # Validasi proporsi
 if (p_hat < 0 || p_hat > 1) {
